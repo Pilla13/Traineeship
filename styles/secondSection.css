@@ -1,0 +1,137 @@
+.experience_container {
+  margin: 0 auto;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  width: 1140px;
+  padding: 50px 0;
+}
+
+.experience_container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  min-height: 121px;
+}
+
+.experience_container_text1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience_yellow-circle {
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffa501;
+  z-index: 1;
+}
+
+.experience_h4 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  top: 6px;
+  z-index: 2;
+}
+
+.yellow-line {
+  width: 60px;
+  height: 3px;
+  background: #ffa501;
+}
+
+.experience_h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.experience_container_main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 425px);
+  justify-content: center;
+  gap: 136px;
+  margin-top: 60px;
+}
+
+.experience_block {
+  max-width: 430px;
+  min-height: 380px;
+}
+
+.experience_ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 343px;
+  list-style: none;
+  border-left: 1px solid black;
+}
+
+.experience_padding {
+  padding-left: 43px;
+}
+
+.dash_img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dash{
+  width: 42px;
+  height: 1px;
+  background: black;
+}
+
+.experience_ul_li_top-block {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.experience_ul h3{
+  position: relative;
+}
+
+.experience_ul h3::before{
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #ffa501;
+  border-radius: 50%;
+  left: -51px;
+}
+
+.experience_ul_li_top-block_name {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience_ul_li_top-block_name h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.experience_ul_li_top-block_name p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.experience_ul_li_paragraph p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}

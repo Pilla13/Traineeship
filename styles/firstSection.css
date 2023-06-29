@@ -1,0 +1,142 @@
+.promo {
+  background: url("../img/background.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.promo_block1 {
+  float: left;
+  transform: rotate(270deg);
+  margin-left: -90px;
+  margin-top: 400px;
+}
+
+.promo_block1_social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.promo_block1_social-media_text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.promo_block1_social-media_dash {
+  width: 70px;
+  height: 2px;
+  background: black;
+}
+
+.social-media_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.social-media_icons img:hover {
+  animation: jump 0.2s;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+  30% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.promo_block2_container {
+  width: 1140px;
+  min-height: 799px;
+  border: 1px solid black;
+  border-bottom: none;
+  margin: 0 auto;
+}
+
+.promo_block2_container_content {
+  padding-top: 200px;
+}
+
+.promo_block2_container_content_text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 532px;
+  min-height: 168px;
+  margin-bottom: 25px;
+}
+
+.text_content1 {
+  position: relative;
+}
+
+.yellow-circle {
+  position: absolute;
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffa501;
+  z-index: 1;
+}
+
+.h4 {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+
+  top: 6px;
+  left: 10px;
+  z-index: 2;
+}
+
+.h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.promo_block2_container_content_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 248px;
+}
+
+.content_buttons_portfolio {
+  width: 135px;
+  height: 45px;
+  background: #ffa501;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.content_buttons_about-me {
+  background: none;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+
+  cursor: pointer;
+}

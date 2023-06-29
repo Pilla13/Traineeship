@@ -1,0 +1,128 @@
+.contacts_container {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: none;
+  width: 1140px;
+  padding: 30px 0 80px 0;
+  margin-bottom: 1px;
+}
+
+.contacts_container_blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contacts_h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.text_block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.text_block2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 115px;
+  margin: 20px 0 25px 0;
+}
+
+.text_block2 h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.text_block2_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.form_input {
+  margin-bottom: 24px;
+}
+
+.form_input_name-email {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.input-name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 260px;
+  height: 45px;
+  padding-left: 20px;
+  color: black;
+  border: 1px solid black;
+}
+
+label {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+
+  padding: 0 8px;
+  background: white;
+  left: 12px;
+  top: -10px;
+}
+
+.input_message {
+  min-width: 565px;
+  max-width: 565px;
+  min-height: 180px;
+  max-height: 180px;
+  color: black;
+  padding: 10px;
+}
+
+.submit-button {
+  width: 219px;
+  height: 45px;
+  background-color: #ffa501;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+}
+
+.error .input {
+  border: 2px solid rgb(179, 32, 32);
+}
+
+.error .input_message {
+  border: 2px solid rgb(179, 32, 32);
+}
+
+.error label {
+  color: rgb(179, 32, 32);
+  font-weight: 700;
+}
+
+.error-label {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(179, 32, 32);
+}
