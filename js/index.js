@@ -11,7 +11,7 @@ function validation(form) {
   function error(input, text) {
     const parent = input.parentNode;
 
-    const errorText = document.createElement("label");
+    const errorText = document.createElement("p");
     errorText.classList.add("error-label");
     errorText.textContent = text;
 
